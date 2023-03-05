@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="UA">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -30,49 +30,59 @@
 
 
     <!-- header -->
-    <header>
-        <nav>
-            <a href="">
-                <img src="./image/logo.jpg" alt="лого">
-            </a>
+    <header class="header">
+        <div class="container header-container">
 
-            <ul>
+            <nav class="header-nav">
+                <a href="#">
+                    <img src="./image/logo.jpg" alt="лого">
+                </a>
 
-                <li>Про нас</li>
-                <li>Послуги і ціни</li>
-                <li>Майстри</li>
-                <li>Контакти</li>
-            </ul>
-        </nav>
+                <ul class="site-nav">
 
-        <address>
-            <a href="tel=+380441111111">+38 044 111 11 11</a>
-        </address>
+                    <li> <a class="header-link link" href="">Про нас</a></li>
+                    <li> <a class="header-link link" href="">Послуги і ціни</a></li>
+                    <li> <a class="header-link link" href="">Майстри</a></li>
+                    <li> <a class="header-link link" href="">Контакти</a></li>
 
-        <button type="button">онлайн-запис</button>
+                </ul>
+            </nav>
 
+            <address class="address">
+                <a class="header-link link" href="tel=+380441111111">+38 044 111 11 11</a>
+            </address>
+
+            <button class="button" type="button">онлайн-запис</button>
+
+        </div>
     </header>
 
 
     <main>
 
         <!-- hero -->
-        <section>
+        <section class="hero hero-section">
+            <div class="container">
+                <div class="hero-container">
 
-            <p>Чоловіча перукарня в Києві</p>
-            <h1>BarberShop</h1>
-            <p>Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та зі смаком.</p>
+                    <ul class="hero-social">
+                        <li><a class="hero-social-link link" href="#">Instagram</a></li>
+                        <li><a class="hero-social-link link" href="#">Youtube</a></li>
 
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Youtube</a></li>
+                    </ul>
 
-            </ul>
+                    <p class="hero-paragraph">Чоловіча перукарня в Києві</p>
+                    <h1 class="hero-title">BarberShop</h1>
+                    <p class="hero-text">Ми експерти у модних чоловічих стрижках.
+                        Працюємо швидко, обережно та зі смаком.</p>
 
-            <ul>
-                <li><button>Назад</button></li>
-                <li><button>Вперед</button></li>
-            </ul>
+
+                    <ul class="carousel-controls">
+                        <li><button class="carousel-button carousel-prev" type="button">Назад</button></li>
+                        <li><button class="carousel-button carousel-next" type="button">Вперед</button></li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!-- about -->
@@ -274,7 +284,7 @@
             <div>
 
                 <h5>Контакти</h5>
-                <addres>
+                <address>
                     <ul>
                         <li><a href="#">вул. Васильківська, 7А
                                 Київ, 08132</a>
@@ -286,7 +296,7 @@
                         <li><a href="#">barbershop@email.com</a>
                         </li>
                     </ul>
-                </addres>
+                </address>
 
                 <h5>Графік роботи</h5>
                 <p>Щоденно з 9:00 до 22:00</p>
